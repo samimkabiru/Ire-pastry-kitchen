@@ -84,3 +84,26 @@ p {
   font-size: 2rem;
   font-weight: 600;
 }
+
+/* Pastry card */
+.card-pastry {
+  position: relative;
+}
+
+.card-pastry__image {
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.card-pastry__text {
+  font-size: 2rem;
+  font-weight: 600;
+  background: #fff;
+  padding: 1.5rem;
+  display: inline-block;
+  position: absolute;
+  bottom: -2rem;
+  right: 8rem;
+  left: 8rem;
+  border-radius: 2rem;
+}
