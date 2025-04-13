@@ -42,3 +42,25 @@ h3 {
 p {
   margin: 0;
 }
+
+/* Button */
+.btn {
+  border: 0;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  text-wrap: nowrap;
+  color: #fff;
+}
+
+.btn--primary {
+  background: none;
+  border: 2px solid #fff;
+}
+
+.btn--secondary {
+  background: #638060;
+}
+
+.btn--block {
+  width: 100%;
+}
