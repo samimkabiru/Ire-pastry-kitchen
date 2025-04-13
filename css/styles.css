@@ -16,6 +16,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.5;
   color: #4c574c;
+  text-align: center;
 }
 
 h1,
@@ -63,4 +64,23 @@ p {
 
 .btn--block {
   width: 100%;
+}
+
+/* category */
+.category {
+  padding: 2rem;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+
+.category__image {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.category__text {
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
 }
