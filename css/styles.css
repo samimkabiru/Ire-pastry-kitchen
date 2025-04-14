@@ -27,7 +27,7 @@ h1,
 h2,
 h3 {
   color: #2b312a;
-  margin-bottom: 1.1;
+  line-height: 1.1;
 }
 
 h1 {
@@ -330,4 +330,57 @@ p {
 
 .benefits__heading {
   margin-bottom: 4rem;
+}
+
+/* Bio */
+.bio {
+  background: #d3e1cf;
+  padding: 4rem 2rem;
+  background: url(/images/bio-bg.jpg);
+  background-size: cover;
+  border-radius: 2rem;
+  max-width: 45rem;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.bio a {
+  color: #fff;
+}
+
+.bio h3 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+
+.bio__image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 2px solid #4c574c;
+}
+
+.bio__socials {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.bio__socials .bio__icon:nth-of-type(2) {
+  margin: 0 2rem;
+}
+
+.bio__icon {
+  transition: color 0.3s;
+}
+
+.bio__icon:hover {
+  color: #2b312a;
+}
+
+@media screen and (min-width: 1024px) {
+  .bio {
+    text-align: left;
+  }
 }
