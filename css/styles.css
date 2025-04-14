@@ -152,6 +152,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 35rem;
+  margin: 0 auto;
 }
 
 .reason__number {
@@ -173,6 +175,7 @@ p {
   font-weight: 600;
   font-size: 2rem;
   margin-bottom: 2rem;
+  text-transform: capitalize;
 }
 
 .reason__btn {
@@ -318,4 +321,13 @@ p {
   .all-pastries .card-pastry__text {
     font-size: 1.8rem;
   }
+}
+
+/* Benefits Section */
+.block--benefits {
+  background: #d3e1cf;
+}
+
+.benefits__heading {
+  margin-bottom: 4rem;
 }
