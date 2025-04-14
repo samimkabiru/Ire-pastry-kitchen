@@ -231,8 +231,13 @@ p {
 @media screen and (min-width: 768px) {
   .block--hero {
     background-image: url(/images/hero-pastry-cropped.jpg);
-    padding-bottom: 25rem;
+    padding-bottom: 19rem;
   }
 }
 
 /* Categories section */
+@media screen and (min-width: 1024px) {
+  .block--category {
+    transform: translateY(-20rem);
+  }
+}
