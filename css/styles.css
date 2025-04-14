@@ -54,12 +54,15 @@ p {
   text-align: center;
   cursor: pointer;
   text-decoration: none;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 
 .btn--primary {
   background: none;
   border: 2px solid #fff;
   transition: background 0.3s, color 0.3s;
+  margin: 2rem 0;
 }
 
 .btn--primary:hover {
@@ -86,6 +89,7 @@ p {
   background: #fff;
   overflow: hidden;
   border-radius: 1.5rem;
+  box-shadow: 0 0 5px lightgray;
 }
 
 .category__image {
@@ -97,6 +101,13 @@ p {
   padding-top: 1rem;
   font-size: 2rem;
   font-weight: 600;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 1024px) {
+  .category {
+    box-shadow: none;
+  }
 }
 
 /* Pastry card */
@@ -167,8 +178,7 @@ p {
 
 /* Blocks */
 .block {
-  border: 5px solid red;
-  padding: 4rem 1.5rem;
+  padding: 4rem 3rem;
 }
 
 .container {
@@ -184,6 +194,7 @@ p {
 /* Grids */
 .grid {
   display: grid;
+  gap: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -203,3 +214,25 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 }
+
+/* Hero Section */
+.block--hero {
+  color: #fff;
+  background-image: url(/images/hero-pastry.jpg);
+  filter: grayscale(45%);
+  background-size: cover;
+  transition: background 0.3s;
+}
+
+.block--hero h1 {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .block--hero {
+    background-image: url(/images/hero-pastry-cropped.jpg);
+    padding-bottom: 25rem;
+  }
+}
+
+/* Categories section */
