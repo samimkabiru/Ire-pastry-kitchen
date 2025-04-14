@@ -19,6 +19,10 @@ body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3 {
@@ -33,6 +37,7 @@ h1 {
 h2 {
   font-weight: 600;
   margin-bottom: 0.8rem;
+  font-size: 3rem;
 }
 
 h3 {
@@ -56,6 +61,7 @@ p {
   text-decoration: none;
   font-weight: 700;
   text-transform: capitalize;
+  display: inline-block;
 }
 
 .btn--primary {
@@ -90,6 +96,8 @@ p {
   overflow: hidden;
   border-radius: 1.5rem;
   box-shadow: 0 0 5px lightgray;
+  max-width: 30rem;
+  margin: 0 auto;
 }
 
 .category__image {
@@ -113,6 +121,8 @@ p {
 /* Pastry card */
 .card-pastry {
   position: relative;
+  max-width: 30rem;
+  margin: 0 auto;
 }
 
 .card-pastry__image {
@@ -127,10 +137,11 @@ p {
   padding: 1.5rem;
   display: inline-block;
   position: absolute;
-  bottom: -2rem;
-  right: 8rem;
-  left: 8rem;
+  bottom: -2.5rem;
+  right: 1.5rem;
+  left: 1.5rem;
   border-radius: 2rem;
+  text-transform: capitalize;
 }
 
 /* Reason card */
@@ -197,6 +208,10 @@ p {
   gap: 2rem;
 }
 
+.grid-mb--1x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 @media screen and (min-width: 768px) {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
@@ -236,8 +251,71 @@ p {
 }
 
 /* Categories section */
+.block--category {
+  transition: transform 0.3s;
+}
 @media screen and (min-width: 1024px) {
   .block--category {
-    transform: translateY(-20rem);
+    transform: translateY(-18rem);
+  }
+}
+
+.arrow-link {
+  display: inline-block;
+  margin-top: 5rem;
+  color: #638060;
+  font-size: 2rem;
+}
+
+.arrow-link--right {
+  transition: color 0.3s;
+}
+
+.arrow-link--left {
+  transition: color 0.3s;
+}
+
+.link__arrow {
+  vertical-align: middle;
+  transition: margin 0.3s;
+}
+
+.arrow-link--right:hover .link__arrow {
+  margin-left: 6px;
+}
+.arrow-link--left:hover .link__arrow {
+  margin-right: 6px;
+}
+
+.arrow-link:hover {
+  color: #2b312a;
+}
+
+/* Pastry Section */
+.block--pastry {
+  background: #d3e1cf;
+}
+
+.pastry__text {
+  margin-bottom: 4rem;
+}
+
+.pastry__section {
+  row-gap: 5rem;
+}
+
+.all-pastries__heading {
+  font-family: 'Tangerine', cursive;
+  font-size: 6rem;
+}
+
+.all-pastries .card-pastry__text {
+  font-size: 1.3rem;
+  transition: font-size 0.3s;
+}
+
+@media screen and (min-width: 1024px) {
+  .all-pastries .card-pastry__text {
+    font-size: 1.8rem;
   }
 }
