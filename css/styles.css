@@ -391,6 +391,10 @@ p {
   color: #2b312a;
 }
 
+.about__heading {
+  margin-bottom: 3rem;
+}
+
 @media screen and (min-width: 1024px) {
   .bio {
     text-align: left;
@@ -530,6 +534,7 @@ p {
   height: 4rem;
   object-fit: cover;
   position: relative;
+  border-radius: 0.5rem;
   z-index: -1;
 }
 
