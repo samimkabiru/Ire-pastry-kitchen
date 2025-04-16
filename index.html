@@ -31,187 +31,208 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <nav class="nav nav--collapsed">
-      <a href="/">
-        <span>
-          <img class="nav__logo" src="images/logo.jpg" alt="" />
-        </span>
-      </a>
-      <div class="nav__menu">
-        <img class="nav__open" src="images/menu.svg" alt="" />
-        <img class="nav__close" src="images/close.svg" alt="" />
-      </div>
-      <div class="nav__body">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#my-works">my works</a></li>
-          <li class="nav__item"><a href="#benefits">why pick Ire</a></li>
-          <li class="nav__item"><a href="#about-me">meet your baker</a></li>
-        </ul>
+    <header>
+      <nav class="nav nav--collapsed">
+        <a href="/">
+          <span>
+            <img class="nav__logo" src="images/logo.jpg" alt="" />
+          </span>
+        </a>
+        <div class="nav__menu">
+          <img class="nav__open" src="images/menu.svg" alt="" />
+          <img class="nav__close" src="images/close.svg" alt="" />
+        </div>
+        <div class="nav__body">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#my-works">my works</a></li>
+            <li class="nav__item"><a href="#benefits">why pick Ire</a></li>
+            <li class="nav__item"><a href="#about-me">meet your baker</a></li>
+          </ul>
+          <a
+            target="_blank"
+            href="https://wa.me/message/WL4MRPR4AIVAO1"
+            class="btn btn--secondary btn--block nav--btn"
+          >
+            Message me
+          </a>
+        </div>
+      </nav>
+      <section class="block block--hero">
+        <div class="container">
+          <h1>We bake joy, from first bite to last crumb.</h1>
+          <p>
+            We make the treats you love - from quick bites to party-sized
+            platters! Stop by for our fresh-baked cakes, yummy desserts, tasty
+            snacks, colorful parfaits, and juicy chops. Need something special
+            for a birthday? We've got you covered with custom packages that'll
+            make your celebration unforgettable!
+          </p>
+          <a
+            href="https://wa.me/message/WL4MRPR4AIVAO1"
+            class="btn btn--primary"
+            >reach out to me</a
+          >
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="block grid grid--1x2 grid--1x3 container block--category">
+        <div data-aos="fade-up" class="category">
+          <img
+            class="category__image"
+            src="images/birthday-cake.jpg"
+            alt="cake"
+          />
+          <p class="category__text">Cakes</p>
+        </div>
+        <div data-aos="fade-up" class="category">
+          <img class="category__image" src="images/pastries.jpg" alt="cake" />
+          <p class="category__text">Pastries</p>
+        </div>
+        <div data-aos="fade-up" class="category">
+          <img class="category__image" src="images/dishes.jpg" alt="cake" />
+          <p class="category__text">Home Style Dishes</p>
+        </div>
+      </section>
+      <section id="my-works" class="block block--pastry">
+        <h2>Our Delicious Creations</h2>
+        <p class="pastry__text">
+          Take a peek at what's been making our customers smile. Each treat is
+          crafted with care and ready for your next celebration or sweet
+          craving.
+        </p>
+        <div class="grid grid--1x2 grid--1x3 container pastry__section">
+          <div data-aos="fade-down" class="card-pastry">
+            <img
+              class="card-pastry__image"
+              src="images/dishes.jpg"
+              alt="dishes"
+            />
+            <span class="card-pastry__text">Food Packages</span>
+          </div>
+          <div data-aos="fade-down" class="card-pastry">
+            <img
+              class="card-pastry__image"
+              src="images/budget-cake.jpg"
+              alt="budget cake"
+            />
+            <span class="card-pastry__text">budget friendly cakes</span>
+          </div>
+          <div data-aos="fade-down" class="card-pastry">
+            <img
+              class="card-pastry__image"
+              src="images/cake-loaves.jpg"
+              alt="cake loaves"
+            />
+            <span class="card-pastry__text">cake loaves</span>
+          </div>
+        </div>
+        <a class="arrow-link arrow-link--right" href="./all-pastries.html"
+          >see more of my works
+          <i class="fa-solid fa-arrow-right link__arrow"></i
+        ></a>
+      </section>
+      <section id="benefits" class="block block--benefits">
+        <h2 class="benefits__heading">
+          Why You Should patronise Ire's pastry kitchen
+        </h2>
+        <div class="grid grid--1x2 grid--auto container">
+          <div class="card-reason">
+            <span class="reason__number">1</span>
+            <h3 class="reason__heading">Baked Straight from the Heart</h3>
+            <p>
+              Every pastry is made by hand in a clean kitchen, with real care
+              and attention to detail you can taste in every bite.
+            </p>
+          </div>
+          <div class="card-reason">
+            <span class="reason__number">2</span>
+            <h3 class="reason__heading">No boring bites here</h3>
+            <p>
+              These aren't your average pastries--you'll find special touches
+              and flavors that reflect the owner's creativity and passion.
+            </p>
+          </div>
+          <div class="card-reason">
+            <span class="reason__number">3</span>
+            <h3 class="reason__heading">Your order, your way</h3>
+            <p>
+              Orders are prepared fresh and based on what you want. Whether it's
+              a favourite flavor or a custom request, you get a personal touch.
+            </p>
+          </div>
+          <div class="card-reason">
+            <span class="reason__number">2</span>
+            <h3 class="reason__heading">Help a dream grow</h3>
+            <p>
+              Every purchase helps a young enterpreneur grow her passion and
+              business. It's more than a treat--it's a way to uplift someone's
+              dream.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="about-me" class="block">
+        <h2 class="about__heading">Meet Your Baker</h2>
+        <div class="grid grid--1x2 container">
+          <article class="bio">
+            <img class="bio__image" src="images/adeola.jpg" alt="adeola" />
+            <h3>Meet Adeola</h3>
+            <p>
+              Adeola is a passionate enterpreneur with a love for creating
+              delicious pastries and a sharp eye for top-quality gadgets.
+              Whether she's baking sweet treats or offering tech gadgets, her
+              customers know they're getting nothing but the best. Known for her
+              honesty and dedication, Adeola is building a brand rooted in
+              trust, quality, and care.
+            </p>
+            <div class="bio__socials">
+              <a
+                target="_blank"
+                class="bio__icon"
+                href="https://www.facebook.com/share/14x29bhN9M8/?mibextid=wwXIfr"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a
+                target="_blank"
+                class="bio__icon"
+                href="https://www.instagram.com/oluwa_tii_damilola?igsh=bmMydTdsZ3V1N3A1&utm_source=qr"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                target="_blank"
+                class="bio__icon"
+                href="mailto:Adaempire62@gmail.com"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+              <a
+                target="_blank"
+                class="bio__icon"
+                href="https://wa.me/message/WL4MRPR4AIVAO1"
+                ><i class="fa-brands fa-square-whatsapp"></i
+              ></a>
+            </div>
+          </article>
+          <img
+            class="info__certificate"
+            src="images/incorporation-cert.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+    </main>
+    <section class="callout-section">
+      <div class="block block--callout">
+        <h2 class="callout__heading">
+          Got a sweet tooth? I'll bake the perfect treat for you!
+        </h2>
         <a
           target="_blank"
           href="https://wa.me/message/WL4MRPR4AIVAO1"
-          class="btn btn--secondary btn--block nav--btn"
+          class="btn btn--secondary"
+          >order now</a
         >
-          Message me
-        </a>
-      </div>
-    </nav>
-    <section class="block block--hero">
-      <div class="container">
-        <h1>We bake joy, from first bite to last crumb.</h1>
-        <p>
-          We make the treats you love - from quick bites to party-sized
-          platters! Stop by for our fresh-baked cakes, yummy desserts, tasty
-          snacks, colorful parfaits, and juicy chops. Need something special for
-          a birthday? We've got you covered with custom packages that'll make
-          your celebration unforgettable!
-        </p>
-        <a href="https://wa.me/message/WL4MRPR4AIVAO1" class="btn btn--primary"
-          >reach out to me</a
-        >
-      </div>
-    </section>
-    <section class="block grid grid--1x2 grid--1x3 container block--category">
-      <div data-aos="fade-up" class="category">
-        <img
-          class="category__image"
-          src="images/birthday-cake.jpg"
-          alt="cake"
-        />
-        <p class="category__text">Cakes</p>
-      </div>
-      <div data-aos="fade-up" class="category">
-        <img class="category__image" src="images/pastries.jpg" alt="cake" />
-        <p class="category__text">Pastries</p>
-      </div>
-      <div data-aos="fade-up" class="category">
-        <img class="category__image" src="images/dishes.jpg" alt="cake" />
-        <p class="category__text">Home Style Dishes</p>
-      </div>
-    </section>
-    <section id="my-works" class="block block--pastry">
-      <h2>Our Delicious Creations</h2>
-      <p class="pastry__text">
-        Take a peek at what's been making our customers smile. Each treat is
-        crafted with care and ready for your next celebration or sweet craving.
-      </p>
-      <div class="grid grid--1x2 grid--1x3 container pastry__section">
-        <div data-aos="fade-down" class="card-pastry">
-          <img
-            class="card-pastry__image"
-            src="images/dishes.jpg"
-            alt="dishes"
-          />
-          <span class="card-pastry__text">Food Packages</span>
-        </div>
-        <div data-aos="fade-down" class="card-pastry">
-          <img
-            class="card-pastry__image"
-            src="images/budget-cake.jpg"
-            alt="budget cake"
-          />
-          <span class="card-pastry__text">budget friendly cakes</span>
-        </div>
-        <div data-aos="fade-down" class="card-pastry">
-          <img
-            class="card-pastry__image"
-            src="images/cake-loaves.jpg"
-            alt="cake loaves"
-          />
-          <span class="card-pastry__text">cake loaves</span>
-        </div>
-      </div>
-      <a class="arrow-link arrow-link--right" href="./all-pastries.html"
-        >see more of my works <i class="fa-solid fa-arrow-right link__arrow"></i
-      ></a>
-    </section>
-    <section id="benefits" class="block block--benefits">
-      <h2 class="benefits__heading">
-        Why You Should patronise Ire's pastry kitchen
-      </h2>
-      <div class="grid grid--1x2 grid--auto container">
-        <div class="card-reason">
-          <span class="reason__number">1</span>
-          <h3 class="reason__heading">Baked Straight from the Heart</h3>
-          <p>
-            Every pastry is made by hand in a clean kitchen, with real care and
-            attention to detail you can taste in every bite.
-          </p>
-        </div>
-        <div class="card-reason">
-          <span class="reason__number">2</span>
-          <h3 class="reason__heading">No boring bites here</h3>
-          <p>
-            These aren't your average pastries--you'll find special touches and
-            flavors that reflect the owner's creativity and passion.
-          </p>
-        </div>
-        <div class="card-reason">
-          <span class="reason__number">3</span>
-          <h3 class="reason__heading">Your order, your way</h3>
-          <p>
-            Orders are prepared fresh and based on what you want. Whether it's a
-            favourite flavor or a custom request, you get a personal touch.
-          </p>
-        </div>
-        <div class="card-reason">
-          <span class="reason__number">2</span>
-          <h3 class="reason__heading">Help a dream grow</h3>
-          <p>
-            Every purchase helps a young enterpreneur grow her passion and
-            business. It's more than a treat--it's a way to uplift someone's
-            dream.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="about-me" class="block">
-      <h2 class="about__heading">Meet Your Baker</h2>
-      <div class="grid grid--1x2 container">
-        <article class="bio">
-          <img class="bio__image" src="images/adeola.jpg" alt="adeola" />
-          <h3>Meet Adeola</h3>
-          <p>
-            Adeola is a passionate enterpreneur with a love for creating
-            delicious pastries and a sharp eye for top-quality gadgets. Whether
-            she's baking sweet treats or offering tech gadgets, her customers
-            know they're getting nothing but the best. Known for her honesty and
-            dedication, Adeola is building a brand rooted in trust, quality, and
-            care.
-          </p>
-          <div class="bio__socials">
-            <a
-              target="_blank"
-              class="bio__icon"
-              href="https://www.facebook.com/share/14x29bhN9M8/?mibextid=wwXIfr"
-              ><i class="fa-brands fa-square-facebook"></i
-            ></a>
-            <a
-              target="_blank"
-              class="bio__icon"
-              href="https://www.instagram.com/oluwa_tii_damilola?igsh=bmMydTdsZ3V1N3A1&utm_source=qr"
-            >
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a
-              target="_blank"
-              class="bio__icon"
-              href="mailto:Adaempire62@gmail.com"
-              ><i class="fa-solid fa-envelope"></i
-            ></a>
-            <a
-              target="_blank"
-              class="bio__icon"
-              href="https://wa.me/message/WL4MRPR4AIVAO1"
-              ><i class="fa-brands fa-square-whatsapp"></i
-            ></a>
-          </div>
-        </article>
-        <img
-          class="info__certificate"
-          src="images/incorporation-cert.jpg"
-          alt=""
-        />
       </div>
     </section>
     <footer class="block block--footer">

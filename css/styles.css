@@ -131,7 +131,7 @@ p {
 }
 
 .card-pastry__text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   background: #fff;
   padding: 1.5rem;
@@ -192,7 +192,7 @@ p {
 
 /* Blocks */
 .block {
-  padding: 4rem 3rem;
+  padding: 4rem 1.5rem;
 }
 
 .container {
@@ -427,6 +427,7 @@ p {
   background: #2b312a;
   color: #fff;
   font-size: 1.8rem;
+  padding-top: 13rem;
 }
 
 .footer__links {
@@ -634,4 +635,23 @@ p {
     max-height: 100%;
     overflow: visible;
   }
+}
+
+/* CTA */
+.block--callout {
+  background: #d3e1cf;
+  margin: 0 auto;
+  max-width: 70rem;
+  border-radius: 3rem;
+}
+
+.callout-section {
+  padding: 0 2rem;
+  transform: translateY(8rem);
+}
+
+.callout__heading {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
