@@ -480,6 +480,7 @@ p {
   border-top: 2px solid hsla(0, 0%, 83%, 0.5);
   padding: 1rem;
   color: hsla(0, 0%, 83%, 0.5);
+  font-size: 1.4rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -495,6 +496,7 @@ p {
 
   .footer__sections {
     align-items: center;
+    grid-template-columns: 70% 1fr;
   }
 
   .copyright {
@@ -654,4 +656,9 @@ p {
   font-weight: 500;
   font-size: 2.5rem;
   margin-bottom: 2rem;
+}
+
+.copyright__designer a {
+  color: #638060;
+  text-decoration: underline;
 }
